@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KC6DDN46FN"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-KC6DDN46FN');
+	</script>
+	<meta charset="UTF-8">
+	<title>PDsen - Contact</title>
+	<link rel="icon" type="image/x-icon" href="images/logo.png">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				<a href="index.html"></a>
+			</div>
+			<ul id="navigation">
+				<li>
+					<a href="index.html"><b>HOME</b></a>
+				</li>
+				<li>
+					<a href="product.html"><b>PRODUCT</b></a>
+				</li>
+				<li>
+					<a href="info.html"><b>INFO</b></a>
+				</li>
+				<li>
+					<a href="clients.html"><b>OUR CLIENTS</b></a>
+				</li>
+				<li>
+					<a href="about.html"><b>ABOUT</b></a>
+				</li>
+				<li class="active">
+					<a href="contact.html"><b>CONTACT</b></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="contents">
+		<div class="section">
+			<h1>Contact</h1>
+			<p>
+				Feel free to contact us if you require more information on our services or products.
+			</p>
+			<form action="https://api.web3forms.com/submit" method="POST" class="message">
+				<input type="hidden" name="access_key" value="4e3c58a5-b9be-4a04-a368-7d5336b9ba9f"/>
+				<input type="hidden" name="redirect" value="https://pdzen.com/form_submission.html">
+				<input type="text" id="fname" name="fullname" required placeholder="Name"/>
+				<input type="text" id="email" name="email" required placeholder="Email"/>
+				<input type="text" id="subject" name="subject" required placeholder="Subject"/>
+				<textarea name="message" required></textarea>
+				<!-- Honeypot Spam Protection -->
+				<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+				<input type="submit" value="Send"/>
+			</form>
+		</div>
+		<div class="section contact">
+			<p>
+				For Inquiries Please Call: <span>+65 9322 2846</span>
+			</p>
+			<p>
+				<span>PDsen Pte. Ltd.<br> 10 Bukit Batok Cresent #04-03C, The Spire, Singapore 658079</span>
+			</p>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="clearfix">
+			<p>
+				© PDsen Pte. Ltd. All Rights Reserved.
+			</p>
+		</div>
+	</div>
+</body>
+</html>
