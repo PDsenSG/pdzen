@@ -217,7 +217,7 @@ body {
 #about-text p{
 	width:50%;
 	margin: 0 auto 0 auto;
-	text-align: justify;
+	text-align: left;
 	font-size: 19px;
 }
 #homepage-about img{
